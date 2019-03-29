@@ -1,6 +1,3 @@
-require_relative 'mp3_importer.rb'
-require_relative 'song.rb'
-
 class Artist
     @@all = []
     attr_accessor :name
@@ -41,11 +38,3 @@ class Artist
         puts stringified_array
     end
 end
-
-
-new_artist = Artist.find_or_create_by_name("Michael Jackson")
-dirty_diana = Song.new("Dirty Diana")
-billie_jean = Song.new("Billie Jean")
-new_artist.add_song(dirty_diana)
-new_artist.add_song(billie_jean)
-new_artist.print_songs
