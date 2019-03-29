@@ -1,8 +1,3 @@
-require_relative 'artist.rb'
-require_relative 'song.rb'
-
-end
-
 class MP3Importer
     attr_accessor :path
     def initialize(path)
