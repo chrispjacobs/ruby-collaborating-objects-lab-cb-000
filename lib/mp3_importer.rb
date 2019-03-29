@@ -1,6 +1,6 @@
 require_relative 'artist.rb'
 require_relative 'song.rb'
-  
+
 end
 
 class MP3Importer
