@@ -1,3 +1,6 @@
+require_relative 'mp3_importer.rb'
+require_relative 'artist.rb'
+
 class Song
     attr_accessor :name
     def initialize(name)
